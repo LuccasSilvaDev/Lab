@@ -1,7 +1,5 @@
 package fundamentos;
 
-import javax.security.auth.x500.X500Principal;
-
 public class NotacaoPonto {
 
     public static void main(String[] args) {
