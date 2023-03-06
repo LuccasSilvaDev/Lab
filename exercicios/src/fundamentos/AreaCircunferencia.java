@@ -6,6 +6,5 @@ public class AreaCircunferencia {
         double area = 3.14159 * Math.pow(raio, 2);
         System.out.println(area);
         System.out.println(Math.PI);
-
     }
 }
