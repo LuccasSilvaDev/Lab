@@ -10,5 +10,6 @@ public class Temperatura {
         double Fahrenheit = entrada.nextDouble();
         double Celsius = (Fahrenheit - 32) * 5.0 / 9.0;
         System.out.println("A temperatura em °C é " + Celsius);
+        entrada.close();
     }
 }
