@@ -20,7 +20,8 @@ public class DesafioCalculadora {
         resultado = "/".equals(operador) ? valor / outroValor : resultado;
         resultado = "%".equals(operador) ? valor % outroValor : resultado;
 
-        System.out.println(resultado);
+        System.out.printf("%.2f %s %.2f = %.2f \n\n",
+                valor, operador, outroValor, resultado);
         Entrada.close();
     }
 }
